@@ -5,7 +5,6 @@ body {
   box-sizing: border-box;
   display: block;
   width: 1100px;
-  height: 3028px;
 }
 
 .content-section {
@@ -32,7 +31,7 @@ body {
   white-space: nowrap;
 }
 
-.header__links-list {
+.header__links_list {
   list-style-type: circle;
   display: flex;
   gap: 31px;
@@ -40,7 +39,7 @@ body {
   padding-left: 0;
 }
 
-.header__links-list-item {
+.header__links_list_item {
   letter-spacing: 0.18px;
   text-decoration-skip-ink: none;
   text-underline-offset: 3px;
@@ -53,9 +52,8 @@ body {
   letter-spacing: 0.18px;
 }
 
-.header__links-list-item_active {
+.header__links_list_item_active {
   text-decoration: none;
-  letter-spacing: none;
   list-style-type: none;
 }
 
@@ -66,7 +64,7 @@ body {
   margin-left: 66px;
 }
 
-.header__logo-image {
+.header__logo_image {
   width: 92%;
   align-items: center;
 }
@@ -85,14 +83,12 @@ body {
 .cover {
   display: flex;
   width: 1100px;
-  height: 757px;
   color: #fff;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
-
 }
 
 .overlay {
@@ -107,41 +103,35 @@ body {
 .cover-title {
   display: block;
   width: 1000px;
-  height: 355px;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 700;
   line-height: 115%;
   font-size: 100px;
   letter-spacing: 30px;
   text-transform: uppercase;
-  margin: 165px auto 133px;
-
+  margin: 165px auto 137px;
 }
 
 .aligned-text {
   display: block;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .aligned-text_left {
   text-align: left;
-  font-weight: 700;
   line-height: 115%;
-  text-transform: uppercase;
 }
 
 .aligned-text_center {
   text-align: center;
-  font-weight: 700;
   line-height: 100%;
-  text-transform: uppercase;
   margin-top: 17px;
 }
 
 .aligned-text_right {
   text-align: right;
-  font-weight: 700;
   line-height: 100%;
-  text-transform: uppercase;
   margin-top: 20px;
 }
 
@@ -175,17 +165,15 @@ body {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 51px;
-  height: 51px
 }
 
 .cover__description-text {
   width: 637px;
-  height: 28px;
   font-size: 22px;
   margin-left: 77px;
   font-weight: 400;
   line-height: 28px; /* 127.273% */
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-style: normal;
   text-transform: uppercase;
   word-spacing: 18.5px;
@@ -209,7 +197,6 @@ body {
 
 .lots {
   width: 1052px;
-  height: 692px;
   margin: 179px auto 146px;
   display: block;
   color: #fff;
@@ -217,7 +204,7 @@ body {
 }
 
 .lots__heading {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -225,7 +212,6 @@ body {
   line-height: normal;
   text-transform: uppercase;
   width: 121px;
-  height: 47px;
   margin: 0;
   padding-left: 40px;
   flex-basis: 0;
@@ -237,7 +223,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 1052px;
-  height: 563px;
   padding-left: 0;
   column-gap: 25px;
   margin-top: 27px;
@@ -246,7 +231,7 @@ body {
 .lots__card-list-item {
   box-sizing: border-box;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   color: #000;
   display: block;
   justify-content: space-between;
@@ -258,40 +243,31 @@ body {
   justify-content: space-between;
   margin: 0;
   width: 334px;
-  height: 563px;
   font-family: Raleway, sans-serif;
   padding: 51px 40px 48px 40px;
+  min-height: 563px;
+}
+
+.card_background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
 }
 
 .card_type_book {
-
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
 }
 
 .card_type_picture {
-
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
 }
 
 .card__title {
   width: 254px;
-  height: 110px;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -299,40 +275,29 @@ body {
   text-decoration-line: underline;
   text-transform: uppercase;
   margin: 0;
-
-}
-
-.card_type_book .card__title {
-  height: 82px;
 }
 
 .card__text {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
 }
 
-.letter-spacing-2_6 {
-letter-spacing: 2.6px;
-}
-
 .lots__look-more-link {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-top: 30px;
-  margin-left: 36px;
+  margin-left: 37px;
 }
-
 
 .about {
   width: 1052px;
-  height: 595px;
   display: flex;
   margin: 146px auto 181px;
   color: #000;
@@ -365,7 +330,6 @@ letter-spacing: 2.6px;
   margin-top: 143px;
   margin-left: 72px;
   width: 693px;
-  height: 452px;
   display: inline-flex;
   padding-top: 3px;
   flex-direction: column;
@@ -374,7 +338,7 @@ letter-spacing: 2.6px;
 }
 
 .about__title {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -383,10 +347,11 @@ letter-spacing: 2.6px;
   justify-content: start;
   text-align: left;
   margin-bottom: 77px;
+  margin-top: -10px;
 }
 
 .about__text {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -394,84 +359,71 @@ letter-spacing: 2.6px;
   margin-top: 24px;
 }
 
-.letter-spacing-01 {
-  letter-spacing: 0.1px;
-}
-
-.letter-spacing-02 {
-  letter-spacing: 0.2px;
-}
-
-.letter-spacing-03 {
-  letter-spacing: 0.3px;
- }
-
 .footer {
-    width: 1000px;
-    height: 98px;
-    margin: 180px auto 88px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-shrink: 0;
+  width: 1000px;
+  margin: 180px auto 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-shrink: 0;
   }
 
   .footer__address {
-    display: block;
-    line-height: 24.3px;
-    margin-top: -1px;
+  display: block;
+  line-height: 24.3px;
+  margin-top: -1px;
+  letter-spacing: 1.1px;
   }
 
   .footer__menu {
-    display: flex;
-    margin-left: 35px;
-    margin-top: -1px;
+  display: flex;
+  margin-left: 35px;
+  margin-top: -1px;
   }
 
   .footer__menu-list {
-    display: block;
-    margin-top: 0;
-    padding-left: 0;
-    width: 149px;
+  display: block;
+  margin-top: 0;
+  padding-left: 0;
+  width: 149px;
   }
 
   .footer__menu-list-item {
-    list-style-type: none;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    width: 152px;
-    letter-spacing: unset;
+  list-style-type: none;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 152px;
+  letter-spacing: unset;
   }
 
   .footer__menu-link {
-    color: #000;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 3px;
-    letter-spacing: unset;
+  color: #000;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
+  letter-spacing: unset;
   }
 
   .footer__menu-link_active {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
   }
 
   .footer__social-list {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 48px;
-    list-style-type: none;
-    width: 240px;
-    margin-top: -1px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  list-style-type: none;
+  width: 240px;
+  margin-top: -1px;
   }
 
   .footer__social-icon {
-    display: block;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
+  display: block;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
   }
-
