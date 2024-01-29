@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  margin: 94px auto 96px;
+  margin: 95px auto 95px;
   display: flex;
   color: #000;
   font-size: 18px;
@@ -61,7 +61,7 @@ body {
   display: block;
   width: 148px;
   height: 105px;
-  margin-left: 65px;
+  margin-left: 66px;
 }
 
 .header__logo_image {
@@ -171,7 +171,7 @@ body {
 .cover__description-text {
   width: 637px;
   font-size: 22px;
-  margin-left: 79px;
+  margin-left: 78px;
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   font-family: Raleway, Arial, sans-serif;
@@ -300,7 +300,7 @@ body {
 .about {
   width: 1052px;
   display: flex;
-  margin: 146px auto 181px;
+  margin: 147px auto 181px;
   color: #000;
   box-sizing: border-box;
 }
@@ -347,7 +347,7 @@ body {
   text-transform: uppercase;
   justify-content: start;
   text-align: left;
-  margin-bottom: 77px;
+  margin-bottom: 75px;
   margin-top: -10px;
 }
 
@@ -358,11 +358,12 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin-top: 24px;
+  letter-spacing: 0.1px;
 }
 
 .footer {
   width: 1000px;
-  margin: 180px auto 88px;
+  margin: 165px auto 88px;
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -372,7 +373,6 @@ body {
   .footer__address {
   display: block;
   line-height: 24.3px;
-  margin-top: -1px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -381,7 +381,6 @@ body {
   .footer__menu {
   display: flex;
   margin-left: 35px;
-  margin-top: -1px;
   }
 
   .footer__menu-list {
